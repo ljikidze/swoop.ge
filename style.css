@@ -13,13 +13,13 @@ nav{
     
 }
 nav.logo{
-    margin-left:340px;
+    margin-left:327px;
     margin-top: 20px;
 }
 
 nav.category{
     margin-left: 30px;
-    margin-top: 17px;
+    margin-top: 10px;
 }
 
 nav.search__input {
@@ -67,7 +67,7 @@ input[type="text"]::placeholder {
  nav.loggin{
     margin-left: 30px;
  }
- nav.tnet{
+ nav.TNET{
     margin-left: 30px;
  }
 
@@ -82,12 +82,11 @@ input[type="text"]::placeholder {
   color: #24292E;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   list-style: none;
-  padding: 6px 16px;
+  padding: 6px 15px;
   position: relative;
   transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   user-select: none;
@@ -96,12 +95,16 @@ input[type="text"]::placeholder {
   vertical-align: middle;
   white-space: nowrap;
   word-wrap: break-word;
+  
+
 }
 
 .button-4:hover {
   background-color: #F3F4F6;
   text-decoration: none;
   transition-duration: 0.1s;
+  
+  
 }
 
 .button-4:disabled {
@@ -109,12 +112,15 @@ input[type="text"]::placeholder {
   border-color: rgba(27, 31, 35, 0.15);
   color: #959DA5;
   cursor: default;
+  
+  
 }
 
 .button-4:active {
   background-color: #EDEFF2;
   box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
   transition: none 0s;
+  
 }
 
 .button-4:focus {
