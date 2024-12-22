@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
 
+header{
+  height: 100px;
+  margin: auto;
+  width: 100%;
+ display: block;
+}
+
 nav{
     display: flex;
     height: 30px;
+    
 }
 nav.logo{
     margin-left:340px;
@@ -12,30 +20,41 @@ nav.logo{
 nav.category{
     margin-left: 30px;
     margin-top: 17px;
+}
+
+nav.search__input {
+  width: 30%;
+  margin-top: 10px;
+  padding: 3px 10px;
+  margin-left: 25px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  line-height: 18px;
+  color: #565757;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 8px;
+  border: 1px solid #575756;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  display: flex;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 15px; /* Increased font size */
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 
 }
 
+input[type="text"]::placeholder {
+  color: #888;
+}
 
-nav.search__input {
-        width: 30%;
-        
-        padding: 10px 10px;
-        margin-left: 25px;
-        background-color: transparent;
-        transition: transform 250ms ease-in-out;
-        font-size: 14px;
-        line-height: 18px;
-        color: #565757;
-        background-color: transparent;
-        background-repeat: no-repeat;
-        background-size: 18px 18px;
-        background-position: 95% center;
-        border-radius: 50px;
-        border: 1px solid #575756;
-        transition: all 250ms ease-in-out;
-        backface-visibility: hidden;
-        transform-style: preserve-3d;
-    }
+
 
  nav.language{
     margin-left: 30px;
@@ -111,5 +130,3 @@ nav.search__input {
 }
 
 
-
-             
