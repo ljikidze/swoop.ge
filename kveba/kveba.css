@@ -351,7 +351,7 @@ a.archevani2{
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-}
+} 
 
 
 
@@ -384,7 +384,7 @@ img.arrow:hover{
 }
 
 div.sidebar-choose{
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 
 /*--------------------------sidebar ends -----------------------------------*/
