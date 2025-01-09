@@ -250,8 +250,13 @@ p.cxovelebi{
 
 a.archevani2{
   text-align: center;
-  
+  text-decoration: none;
 }
+
+a.archevani1{
+  text-decoration: none;
+}
+
 .img-kino{
   width: 24px;
   height: 24px;
