@@ -251,12 +251,9 @@ p.cxovelebi{
 a.archevani2{
   text-align: center;
   text-decoration: none;
-}
 
-a.archevani1{
-  text-decoration: none;
+  
 }
-
 .img-kino{
   width: 24px;
   height: 24px;
@@ -307,6 +304,13 @@ a.archevani1{
   height: 24px;
 }
 
+div.archevani{
+  text-decoration: none;
+}
+
+a.archevani1{
+  text-decoration: none;
+}
 
 /*--------------------------section ends -----------------------------------*/
 
@@ -356,7 +360,7 @@ a.archevani1{
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-}
+} 
 
 
 
@@ -384,32 +388,34 @@ img.arrow:hover{
   background-color: #fff; 
 }
 
+
 #html {
-  accent-color: green;
-  border-color: rgb(221 221 221 / var(--tw-border-opacity, 1));
-  border-radius: .25rem;
-  cursor: pointer;
-  width: 1.25rem;
-  height: 1.25rem;
-  appearance: none;
-  opacity: 0; 
-  transition: opacity 0.3s ease; 
-}
-
-#html:checked {
-  opacity: 1; 
-}
-
-#html:checked::after {
-  content: "✔";
-  color: green;
-  font-weight: bold;
-}
-
+    accent-color: green;
+    border-color: rgb(221 221 221 / var(--tw-border-opacity, 1));
+    border-radius: .25rem;
+    cursor: pointer;
+    width: 1.25rem;
+    height: 1.25rem;
+    appearance: none;
+    opacity: 0; /* Invisible when not checked */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Show checkbox when checked */
+  #html:checked {
+    opacity: 1; /* Visible when checked */
+  }
+  
+  /* Optional custom checkmark when checked */
+  #html:checked::after {
+    content: "✔";
+    color: green;
+    font-weight: bold;
+  }
 
 
 div.sidebar-choose{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /*--------------------------sidebar ends -----------------------------------*/
@@ -493,7 +499,7 @@ div.h1-p{
 
 img.imgs{
   width: 300px;
-  height: 157px;
+  height: 220px;
   border-radius: 10px;
 }
 
@@ -501,7 +507,7 @@ img.imgs{
 .kino-p1{
  margin: 0;
  font-size: 15px;
- font-weight: 600;
+ font-weight: 500;
  font-family: TBCXRegular,sans-serif;
 }
 .kino-p2{
@@ -517,6 +523,45 @@ div.photos{
   justify-content: space-between;
   margin-top:15px ;
 }
+
+.title3{
+  color: rgb(34 34 34 / var(--tw-text-opacity, 1));
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+s.sale{
+  color: rgb(100 100 100 / var(--tw-text-opacity, 1));
+  font-size: 14px;
+}
+
+strong.discount{
+  margin-left: 15px;
+    --tw-text-opacity: 1;
+    font-family: TBCXRegular, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+    color: white;
+    padding: 4px 5px;
+    background-color: rgb(230 100 100 / var(--tw-bg-opacity, 1));
+}
+
+label.label-1{
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: TBCXRegular, sans-serif;
+}
+
+label.label-2{
+  color: rgb(34 34 34/var(--tw-text-opacity,1));
+  font-family: TBCXRegular, sans-serif;
+  font-size: 16px;
+}
+
 /*--------------------------gallery ends -----------------------------------*/
 
 /*------------------------footer starts-------------------------*/
