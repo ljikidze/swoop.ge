@@ -379,9 +379,29 @@ img.arrow:hover{
   background-color: #fff; 
 }
 
-#html{
-  accent-color: black;
+#html {
+  accent-color: green;
+  border-color: rgb(221 221 221 / var(--tw-border-opacity, 1));
+  border-radius: .25rem;
+  cursor: pointer;
+  width: 1.25rem;
+  height: 1.25rem;
+  appearance: none;
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
 }
+
+#html:checked {
+  opacity: 1; 
+}
+
+#html:checked::after {
+  content: "✔";
+  color: green;
+  font-weight: bold;
+}
+
+
 
 div.sidebar-choose{
   margin-bottom: 10px;
