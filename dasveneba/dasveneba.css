@@ -384,7 +384,7 @@ img.arrow:hover{
 }
 
 div.sidebar-choose{
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 /*--------------------------sidebar ends -----------------------------------*/
@@ -468,7 +468,7 @@ div.h1-p{
 
 img.imgs{
   width: 300px;
-  height: 157px;
+  height: 220px;
   border-radius: 10px;
 }
 
@@ -492,6 +492,45 @@ div.photos{
   justify-content: space-between;
   margin-top:15px ;
 }
+
+.title3{
+  color: rgb(34 34 34 / var(--tw-text-opacity, 1));
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+s.sale{
+  color: rgb(100 100 100 / var(--tw-text-opacity, 1));
+  font-size: 14px;
+}
+
+strong.discount{
+  margin-left: 15px;
+    --tw-text-opacity: 1;
+    font-family: TBCXRegular, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+    color: white;
+    padding: 4px 5px;
+    background-color: rgb(230 100 100 / var(--tw-bg-opacity, 1));
+}
+
+label.label-1{
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: TBCXRegular, sans-serif;
+}
+
+label.label-2{
+  color: rgb(34 34 34/var(--tw-text-opacity,1));
+  font-family: TBCXRegular, sans-serif;
+  font-size: 16px;
+}
+
 /*--------------------------gallery ends -----------------------------------*/
 
 /*------------------------footer starts-------------------------*/
