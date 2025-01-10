@@ -1,0 +1,154 @@
+div.anonimur{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8rem;
+    text-align: center;
+}
+img.tnet{
+    width: 200px;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+p.p-text{
+    box-sizing: border-box;
+    width: 81%;
+    font-size: 18px;
+    text-align: left;
+}
+a.p-a-text{
+ color: blue;
+}
+
+p.anon-1{
+    font-weight: 800;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+
+p.dac-1{
+    font-weight: 500;
+    text-align: left;
+    color: gray;
+    font-size: 17px;
+}
+
+.radio-container {
+    padding: 10px;
+  }
+  
+  .radio-container input[type="radio"] {
+    margin-bottom: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #searchBar input[type="text"] {
+    width: 38%;
+    padding: 8px;
+    border: 1px solid #c0afaf;
+    border-radius: 6px;
+    margin-top: 10px;
+    float: left;
+  }
+  input.radio{
+    float: left;
+  }
+  label.radio{
+    float: left;
+  }
+  label{
+    font-size: 18px;
+  }
+  
+  input.radio1{
+    float: left;
+  }
+  label.radio1{
+    float: left;
+  }
+
+
+  div.email{
+    margin-top: 60px;
+  }
+
+  p.email1{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+input.email{
+    width: 33%;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+p.email2{
+    text-align: left;
+    margin-top: 30px;
+}
+div.radio-item{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 20px;
+}
+div.problems{
+    margin-top: 40px;
+    text-align: left;
+
+}
+h2{
+    text-align: left;
+    font-size: 18px;
+}
+div.radio-item1{
+    text-align: left;
+    margin-top: 15px;
+}
+
+div.დაფიქსირება{
+    text-align: left;
+    margin-top: 50px;
+}
+h4{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#searchBar input[type="text1"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #c0afaf;
+    border-radius: 6px;
+    margin-top: 10px;
+    height: 140px;
+  }
+
+  div.button{
+    margin-top: 50px;
+    
+  }
+
+  button.button{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: lch(37 99 256 / 1);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 45px;
+  }
