@@ -48,3 +48,5 @@ async function switchLanguage(language) {
     const searchInput = document.getElementById('searchInput');
     searchInput.setAttribute('placeholder', translations[language]['searchPlaceholder']);
 }
+
+//cookies
