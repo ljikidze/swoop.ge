@@ -25,25 +25,25 @@
 
             <!-- Categories Button -->
 
-
+            <body>
 
             <nav class="category">
               <div class="dropdown">
               <button class="button-4" role="button" style="display: flex;">
-                  <p color="dark" weight="medium" type="body" style="margin-top: 1px;">კატეგორიები</p>    
+                  <p color="dark" weight="medium" type="body" style="margin-top: 1px;" data-translate="category">კატეგორიები</p>  
                   <img alt="Frame.svg" src="https://swoop.ge/icons/Frame.svg" style="color: transparent; margin-top: 3px;">
                 </button>
                 <div class="dropdown-content">
-                  <a href="/Swoop.ge/kino page/kino.html">კინო<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
-                   <a href="/Swoop.ge/dasveneba/dasveneba.html">დასვენება<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
-                     <a href="/Swoop.ge/gartoba/gartoba.html">გართობა<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
-                     <a href="/Swoop.ge/kveba/kveba.html">კვება<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
-                     <a href="/Swoop.ge/sabavshvo/sabavshvo.html">საბავშვო<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
-                       <a href="/Swoop.ge/sporti/sport.html">სპორტი<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
-                       <a href="/Swoop.ge/estetika/estetika.html">ესთეტიკა<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
-                       <a href="/Swoop.ge/janmrteloba/jan.html">ჯანმრთელობა<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
-                         <a href="/Swoop.ge/kursebi/kursebi.html">კურსები<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
-                         <a href="/Swoop.ge/cxovelebi/cxovelebi.html">ცხოველები<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                  <a href="/Swoop.ge/kino page/kino.html"  data-translate="kino">კინო<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                   <a href="/Swoop.ge/dasveneba/dasveneba.html" data-translate="dasveneba">დასვენება<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                     <a href="/Swoop.ge/gartoba/gartoba.html" data-translate="gartoba">გართობა<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                     <a href="/Swoop.ge/kveba/kveba.html" data-translate="kveba">კვება<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                     <a href="/Swoop.ge/sabavshvo/sabavshvo.html" data-translate="sabavshvo">საბავშვო<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                       <a href="/Swoop.ge/sporti/sport.html" data-translate="sporti">სპორტი<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                       <a href="/Swoop.ge/estetika/estetika.html" data-translate="estetika">ესთეტიკა<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                       <a href="/Swoop.ge/janmrteloba/jan.html" data-translate="janmrteloba">ჯანმრთელობა<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                         <a href="/Swoop.ge/kursebi/kursebi.html" data-translate="kurcebi">კურსები<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
+                         <a href="/Swoop.ge/cxovelebi/cxovelebi.html" data-translate="cxovelebi">ცხოველები<img style="width: 15px; float:right;"  src="https://cdn-icons-png.flaticon.com/512/2990/2990159.png" alt=""></a>
                           </div>
                           
                               </div> 
@@ -53,13 +53,31 @@
             <!-- Search Input -->
             <nav class="search__input"> 
                 <img src="https://swoop.ge/icons/search-light.svg" style="width: 20px; height: 20px; margin-right: 5px; margin-top: 6px; color: transparent;">
-                <input type="text" placeholder="მოძებნე კომპანია ან შეთავაზება">
+                <input type="text"  data-translate="find company and offer" id="searchInput"  placeholder="მოძებნე კომპანია ან შეთავაზება">
             </nav>
 
             <!-- Language Selector -->
             <nav class="language">
-                <img class="img2" src="https://swoop.ge/icons/language-icon.svg">
+                <div class="dropdown">
+                  <button class="button-4" role="button" style="display: flex;border: none;">
+                              <img class="img2" src="https://swoop.ge/icons/language-icon.svg">
+                    </button>
+                    <div class="dropdown-content">
+                         <div class="language-switcher">
+                <button onclick="switchLanguage('georgian')">ქართული</button>
+                <br>
+                <button onclick="switchLanguage('english')">English</button>
+            </div>
+                              </div>
+                             </div> 
             </nav>
+
+   
+            
+            
+            <script src="./script.js"></script>
+            
+          
 
             <!-- Shopping Cart -->
             <nav class="shopping-cart">
@@ -68,8 +86,9 @@
 
             <!-- Login Button -->
             <button class="button15 ">
+              
                 <img class="img4" src="https://swoop.ge/icons/profile.svg">
-                <span>შესვლა</span>
+                <span data-translate="login in">შესვლა</span>
             </button>
 
             <!-- TNET Logo -->
@@ -84,43 +103,43 @@
           <div class="archevani" >
             <a href="/Swoop.ge/kino page/kino.html" class="archevani1" style="text-decoration: none;">
                 <img class="img-kino" src="https://cdn.swoop.ge/images/icons/kino.png" alt="">
-                <p  class="kino" style="color: rgb(100 100 100/var(--tw-text-opacity,1)); ">კინო</p>
+                <p  class="kino" style="color: rgb(100 100 100/var(--tw-text-opacity,1)); "data-translate="kino">კინო</p>
             </a>
             <a href="/Swoop.ge/dasveneba/dasveneba.html" class="archevani2">
                 <img class="img-dasveneba" src="https://cdn.swoop.ge/images/icons/dasveneba.png" alt="">
-                <p class="dasveneba" style="color: rgb(100 100 100/var(--tw-text-opacity,1));">დასვენება</p>
+                <p class="dasveneba" style="color: rgb(100 100 100/var(--tw-text-opacity,1));" data-translate="kino">დასვენება</p>
             </a>
             <a  href="/Swoop.ge/gartoba/gartoba.html" class="archevani2">
                 <img class="img-gartoba" src="https://cdn.swoop.ge/images/icons/gartoba.png" alt="">
-                <p class="gartoba" style="color: rgb(100 100 100/var(--tw-text-opacity,1));">გართობა</p>
+                <p class="gartoba" style="color: rgb(100 100 100/var(--tw-text-opacity,1));" data-translate="kino">გართობა</p>
             </a>
             <a href="/Swoop.ge/kveba/kveba.html" class="archevani2">
                 <img class="img-kveba" src="https://cdn.swoop.ge/images/icons/kveba.png" alt="">
-                <p class="kveba" style="color: rgb(100 100 100/var(--tw-text-opacity,1));">კვება</p>
+                <p class="kveba" style="color: rgb(100 100 100/var(--tw-text-opacity,1));" data-translate="kino">კვება</p>
             </a>
             <a href="/Swoop.ge/sabavshvo/sabavshvo.html" class="archevani2">
                 <img class="img-sabavshvo" src="https://cdn.swoop.ge/images/icons/sabavshvo.png" alt="">
-                <p class="sabavshvo" style="color: rgb(100 100 100/var(--tw-text-opacity,1));">საბავშვო</p>
+                <p class="sabavshvo" style="color: rgb(100 100 100/var(--tw-text-opacity,1));" data-translate="kino">საბავშვო</p>
             </a>
             <a href="/Swoop.ge/sporti/sport.html" class="archevani2">
                 <img class="img-sporti" src="https://cdn.swoop.ge/images/icons/sporti.png" alt="">
-                <p class="sporti" style="color: rgb(100 100 100/var(--tw-text-opacity,1));">სპორტი</p>
+                <p class="sporti" style="color: rgb(100 100 100/var(--tw-text-opacity,1));" data-translate="kino">სპორტი</p>
             </a>
             <a href="/Swoop.ge/estetika/estetika.html" class="archevani2">
                 <img class="img-estetika" src="https://cdn.swoop.ge/images/icons/estetika.png" alt="">
-                <p class="estetika" style="color: rgb(100 100 100/var(--tw-text-opacity,1));">ესთეტიკა</p>
+                <p class="estetika" style="color: rgb(100 100 100/var(--tw-text-opacity,1));" data-translate="kino">ესთეტიკა</p>
             </a>
             <a href="/Swoop.ge/janmrteloba/jan.html" class="archevani2">
                 <img class="img-jandacva" src="https://cdn.swoop.ge/images/icons/jandacva.png" alt="">
-                <p class="jandacva" style="color: rgb(100 100 100/var(--tw-text-opacity,1));">ჯანმრთელობა</p>
+                <p class="jandacva" style="color: rgb(100 100 100/var(--tw-text-opacity,1));" data-translate="kino">ჯანმრთელობა</p>
             </a>
             <a href="/Swoop.ge/kursebi/kursebi.html" class="archevani2">
                 <img class="img-kurcebi" src="https://cdn.swoop.ge/images/icons/ganatleba.png" alt="">
-                <p class="kurcebi" style="color: rgb(100 100 100/var(--tw-text-opacity,1));">კურსები</p>
+                <p class="kurcebi" style="color: rgb(100 100 100/var(--tw-text-opacity,1));" data-translate="kino">კურსები</p>
             </a>
             <a href="/Swoop.ge/cxovelebi/cxovelebi.html" class="archevani2">
                 <img class="img-cxovelebi" src="https://cdn.swoop.ge/images/icons/block703.png" alt="">
-                <p class="cxovelebi" style="color: rgb(100 100 100/var(--tw-text-opacity,1));">ცხოველები</p>
+                <p class="cxovelebi" style="color: rgb(100 100 100/var(--tw-text-opacity,1));" data-translate="kino">ცხოველები</p>
             </a>
         
           </div>

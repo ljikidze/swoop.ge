@@ -1,0 +1,34 @@
+{
+    "georgian": {
+      "kino" : "კინო",
+      "category":"კატეგორია",
+      "searchPlaceholder": "მოძებნე კომპანია ან შეთავაზება",
+      "login in":"შესვლა",
+      "dasveneba":"დასვენება",
+      "gartoba":"გართობა",
+      "kveba":"კვება",
+      "sabavshvo":"საბავშვო",
+      "sporti": "სპორტი" ,
+      "estetika":"ესთეთიკა",
+      "janmrteloba":"ჯანმრთელობა",
+      "kurcebi":"კურსები",
+      "cxovelebi":"ცხოველები"
+    },
+    "english": {
+      "kino" : "kino",
+      "category": "Category",
+      "searchPlaceholder": "Find company and offer",
+      "login in":"login in",
+      "dasveneba":"dasveneba",
+      "gartoba":"gartoba",
+      "kveba":"kveba",
+      "sabavshvo":"sabavshvo",
+      "sporti":"sporti",
+      "estetika":"estetika",
+      "janmrteloba":"janmrteloba",
+      "kurcebi":"kurcebi",
+      "cxovelebi":"cxovelebi"
+
+        }   
+  }
+  
